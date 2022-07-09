@@ -1,6 +1,9 @@
 import React from "react";
 import Foto5 from "../assets/5.png";
+import F6 from "../assets/6.png";
 import Seven from "../assets/8.jpg";
+import F10 from "../assets/10.png";
+import Next from "../assets/Next.png";
 
 const Projects = () => {
   return (
@@ -23,7 +26,7 @@ const Projects = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
           {/* container */}
           <div
-            style={{ backgroundImage: `url(${Foto5})` }}
+            style={{ backgroundImage: `url(${F6})` }}
             className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
@@ -52,26 +55,26 @@ const Projects = () => {
           </div>
           {/* container */}
           <div
-            style={{ backgroundImage: `url(${Foto5})` }}
+            style={{ backgroundImage: `url(${F10})` }}
             className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS App
+                Redux Toolkit App Example
               </span>
 
               <div className="pt-8 text-center flex justify-around ">
-                <a href="/">
+                <a href="https://redux-toolkit-app-ciru.herokuapp.com/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Info
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://redux-toolkit-app-ciru.herokuapp.com/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/pciruelos/redux-toolkit">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Github
                   </button>
@@ -110,26 +113,26 @@ const Projects = () => {
           </div>
           {/* container */}
           <div
-            style={{ backgroundImage: `url(${Foto5})` }}
+            style={{ backgroundImage: `url(${Next})` }}
             className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS App
+                Next Personal Old Web
               </span>
 
               <div className="pt-8 text-center flex justify-around ">
-                <a href="/">
+                <a href="https://github.com/pciruelos/next-personal-web">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Info
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://ciruelos-next-web.herokuapp.com/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/pciruelos/next-personal-web">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Github
                   </button>
@@ -140,8 +143,8 @@ const Projects = () => {
         </div>
       </div>
       <div className="pb-5">
-      <button className="text-white border-2 px-6 py-3 flex items-center mx-auto text-center bg-[#f88379] hover:border-[#f88379]">
-                More Info
+      <button className="text-white  px-6 py-3 flex items-center mx-auto text-center bg-[#f88379] hover:bg-white hover:text-black">
+                More Projects
       </button>
       </div>
     </div>
