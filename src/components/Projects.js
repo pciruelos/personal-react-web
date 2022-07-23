@@ -192,7 +192,7 @@ const Projects = () => {
                     Info
                   </button>
                 </a>
-                <a href="https://vercel.com/pciruelos/react-rick-and-morty-api">
+                <a href="https://react-rick-and-morty-api-pied.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Demo
                   </button>
