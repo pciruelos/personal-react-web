@@ -26,7 +26,7 @@ const Navbar = () => {
           <li><Link  to="project"  smooth={true} offset={-50} duration={500} >
           Portfolio
         </Link></li>
-          <li>Experience y Studies</li>
+          {/* <li>Experience y Studies</li> */}
           <li><Link  to="contact"  smooth={true} offset={50} duration={500} >
           Contact
         </Link></li>

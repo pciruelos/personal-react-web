@@ -12,7 +12,7 @@ const Home = () => {
           Pablo Ciruelos
         </h1>
         <h2 className="text-2xl sm:text-6xl font-bold">FrontEnd Developer</h2>
-        <p className="text-[#f88379] font-sans text-xl italic ">creativity + passion + tech freak</p>
+        <p className="text-[#f88379] font-sans text-xl italic ">where creativity & passion mets coding</p>
         <div>
           <Link  to="aboutme"  smooth={true} offset={-50} duration={500} >
           <button className=" group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#f88379] hover:border-[#f88379]">
