@@ -42,17 +42,17 @@ const Projects = () => {
               </span>
 
               <div className="pt-8 text-center flex justify-around ">
-                {/* <a href="https://github.com/pciruelos/MERN-img">
+                {/* <a href="https://github.com/pciruelos/tacho-maps-mern">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Info
                   </button>
                 </a> */}
-                <a href="https://ciru-mern-img-web.herokuapp.com/">
+                <a href="https://tacho-maps-mern.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/pciruelos/MERN-img">
+                <a href="https://github.com/pciruelos/tacho-maps-mern">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Github
                   </button>
