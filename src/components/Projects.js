@@ -7,6 +7,7 @@ import F12 from "../assets/12.png";
 import F17 from "../assets/17.png";
 import F15 from "../assets/15.png";
 import Next from "../assets/Next.png";
+import Supa from '../assets/supa.png'
 
 const Projects = () => {
   return (
@@ -120,12 +121,12 @@ const Projects = () => {
           </div>
           {/* container4*/}
           <div
-            style={{ backgroundImage: `url(${Next})` }}
+            style={{ backgroundImage: `url(${Supa})` }}
             className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Next Personal Old Web
+                React + Supabase
               </span>
 
               <div className="pt-8 text-center flex justify-around ">
@@ -134,12 +135,12 @@ const Projects = () => {
                     Info
                   </button>
                 </a> */}
-                <a href="https://ciruelos-next-web.herokuapp.com/">
+                <a href="https://react-supabase-1-final.vercel.app">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/pciruelos/next-personal-web">
+                <a href="https://github.com/pciruelos/react-supabase-1">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Github
                   </button>

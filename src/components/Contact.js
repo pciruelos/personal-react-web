@@ -13,7 +13,7 @@ const Contact = () => {
                 <a className='hover:scale-125 duration-900 hover:text-white' href="https://www.linkedin.com/in/pablociruelos/"><FaLinkedin/></a>
                 <a className='hover:scale-125 duration-900 hover:text-white' href="https://www.youtube.com/c/luppo2007"><FaYoutube/></a>
                 <a className='hover:scale-125 duration-900 hover:text-white' href="https://www.behance.net/elchicoprodigio"><FaBehance/></a>
-                <a className='hover:scale-125 duration-900 hover:text-white' href="mailto:pciruelos@yahoo.com"><FaEnvelope/></a>
+                <a className='hover:scale-125 duration-900 hover:text-white' href="mailto:pablo.ciruelos@gmail.com"><FaEnvelope/></a>
                 
             </div>
             <div className="text-center px-10 text-[#f88379] pt-10 pb-10">
